@@ -44,6 +44,18 @@ export function Contact() {
           </div>
         </div>
       </section>
+      <section>
+        <p
+          style={{
+            color: "#FF6EC7",
+            fontSize: 15,
+            paddingBottom: 20,
+            marginLeft: 15,
+          }}
+        >
+          Currently located in Buenos Aires
+        </p>
+      </section>
     </footer>
   );
 }

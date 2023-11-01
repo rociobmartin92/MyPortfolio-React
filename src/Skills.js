@@ -10,6 +10,9 @@ import {
   git,
   js4,
   redux,
+  firebase,
+  google,
+  node,
 } from "./imagesLogo";
 
 export function Skills() {
@@ -36,7 +39,7 @@ export function Skills() {
             <div className="img">
               <img src={js4} alt="" />
               <div className="skill_name">
-                <p>Jvascript</p>
+                <p>Javascript</p>
               </div>
             </div>
             <div className="img">
@@ -48,7 +51,7 @@ export function Skills() {
             <div className="img">
               <img src={react1} alt="" />
               <div className="skill_name">
-                <p>Reactjs</p>
+                <p>ReactJs</p>
               </div>
             </div>
             <div className="img">
@@ -58,35 +61,31 @@ export function Skills() {
               </div>
             </div>
             <div className="img">
+              <img src={node} alt="" />
+              <div className="skill_name">
+                <p>NodeJS</p>
+              </div>
+            </div>
+            <div className="img">
               <img src={redux} alt="" />
               <div className="skill_name">
-                <p>Redux toolkit</p>
+                <p>Redux-toolkit</p>
+              </div>
+            </div>
+
+            <div className="img">
+              <img src={firebase} alt="" />
+              <div className="skill_name">
+                <p>Firebase</p>
               </div>
             </div>
             <div className="img">
-              <img src={git} alt="" />
+              <img src={google} alt="" />
               <div className="skill_name">
-                <p>Git</p>
+                <p>GoogleCloud</p>
               </div>
             </div>
-            {/* <div className="img">
-              <img src={`imagen/github.png`} alt="" />
-              <div className="skill_name">
-                <p>GitHub</p>
-              </div>
-            </div> */}
-            {/* <div className="img">
-              <img src={`imagen/sass1.png`} alt="" />
-              <div className="skill_name">
-                <p>Sass</p>
-              </div>
-            </div>
-            <div className="img">
-              <img src={`imagen/py5.png`} alt="" />
-              <div className="skill_name">
-                <p>Python</p>
-              </div>
-            </div> */}
+
             <div className="img">
               <img src={sql} alt="" />
               <div className="skill_name">

@@ -7,5 +7,21 @@ import sql from "./sql.png";
 import typescript from "./typescript.png";
 import js4 from "./js2.png";
 import redux from "./redux.png";
+import firebase from "./firebase.png";
+import google from "./google.png";
+import node from "./node.png";
 
-export { atom, html5, css3, git, react1, sql, typescript, js4, redux };
+export {
+  atom,
+  html5,
+  css3,
+  git,
+  react1,
+  sql,
+  typescript,
+  js4,
+  redux,
+  firebase,
+  google,
+  node,
+};

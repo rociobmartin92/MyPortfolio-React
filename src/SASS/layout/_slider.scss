@@ -8,8 +8,8 @@ input[type=radio]{
 
 .sliders{
     position: relative;
-    width: 450px;
-    height: 230px;
+    width: 550px;
+    height: 450px;
     border-radius: 20px;
     // &::before{
     //     content: "";
@@ -32,7 +32,7 @@ input[type=radio]{
     height: 100%;
     left: 0;
     right: 0;
-    margin: auto;
+    // margin: auto;
     cursor: pointer;
     transition: transform 0.4s cubic-bezier(0.165, 0.84,0.44,1);
     
